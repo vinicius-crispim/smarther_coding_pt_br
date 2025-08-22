@@ -33,7 +33,7 @@
 '''
 
 ''' 
-    A lógica atual misturava envio de e-mails e inclusões no banco dedados em blocos iguais, então 
+    A lógica atual mistura o envio de e-mails e as inclusões no banco de dados em blocos iguais, então 
     para modificar isso eu decidi separar em dois blocos diferentes, primeiro fazendo as inclusões no banco
     e depois fazendo os envios de e-mails
 '''
@@ -103,3 +103,4 @@ def insert_note(note):
 
 
 process_nf()
+
