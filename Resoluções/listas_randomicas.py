@@ -20,10 +20,10 @@
 '''
 
 ''' 
-    A correção deve ser feita no if e no registro do novo número na lista, pois ele verifica se
-    um número gerado aleatoriamente entre 1 a 10 é maior que 5, se for ele gera outro número aleatório
-    entre 1 a 10 e registra na lista1, senão ele gera outro número aleatório para registrar na lista2.
-    Então ele não insere na lista o mesmo número validado no if, é inserido outro aleatório de 1 a 10 em
+    A correção deve ser feita no if e na adição do novo número na lista, pois o código verifica se
+    um número gerado aleatoriamente entre 1 e 10 é maior que 5, se for é gerado outro número aleatório
+    entre 1 e 10 e registra na lista1, senão ele gera outro número aleatório para adicionar na lista2.
+    Então o código não insere na lista o mesmo número validado no if, é inserido outro valor aleatório de 1 a 10 em
     ambas as listas.
     Para corrigir isso, eu adicionaria o número aleatório em uma variavel antes do if e usaria essa
     variável para verificar no if e também para adicionar nas listas, segue exemplo em python:
@@ -43,4 +43,5 @@ while count < 1000:
     count = count + 1
 
 print(lista1)
+
 print(lista2)
